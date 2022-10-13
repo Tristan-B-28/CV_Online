@@ -5,7 +5,6 @@ const Knowledges = () => {
     return (
         <div>
             <Navigation />
-            <h1>Knowledges</h1>
         </div>
     );
 };

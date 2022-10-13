@@ -6,8 +6,8 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className='idContent'>
-                    <img src='./media/Jeff.jpg' alt='profil-picture' />
-                    <h3>Jeff Besos</h3>
+                    <img src='./media/chad.jpg' alt='profil-picture' />
+                    <h3>Giga Chad</h3>
                 </div>
             </div>
 
