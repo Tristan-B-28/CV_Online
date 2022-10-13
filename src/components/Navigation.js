@@ -55,9 +55,7 @@ const Navigation = () => {
                     <p>ReactJS 2022</p>
                 </div>
             </div>
-
         </div>
-
     );
 };
 
