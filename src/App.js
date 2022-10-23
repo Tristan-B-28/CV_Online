@@ -9,18 +9,17 @@ import Portfolio from './pages/Portfolio';
 
 const App = () => {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/competences" element={<Knowledges />} />
-          <Route path="/notFound" element={<NotFound />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-      
-    </div>
+    </>
   );
 };
 
